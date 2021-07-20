@@ -1,6 +1,6 @@
 [点我前往中文版本。](readme.md)
 
-# Hi Buluo #
+# Hi Word-match #
 
 > Hint: Maybe English version doc will not up to date, so don't be angry. You can direct translate the Chinese document. Aslo, if you found any wrongs at translation, please report it to me.
 
