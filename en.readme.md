@@ -4,7 +4,7 @@
 
 > Hint: Maybe English version doc will not up to date, so don't be angry. You can direct translate the Chinese document. Aslo, if you found any wrongs at translation, please report it to me.
 
-Word-match is a amazing dictionary miniprogram software looks like [成语大全](https://zz99999.com/cy).
+Word-match is a amazing dictionary miniprogram software looks like [成语大全](https://zz99999.com/cy).It is A collection of information and entertainment of a small program.
 
 If you also wanted to build a dictionary miniprogram, maybe Word-match is the best choice for you!
 
