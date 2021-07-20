@@ -1,58 +1,104 @@
-[Click me to view English version.](en.readme.md)
+[点我前往中文版本。](readme.md)
 
-# 学神录 #
+# Hi Buluo #
 
-**发布上线，不过可以升级迭代**
+> Hint: Maybe English version doc will not up to date, so don't be angry. You can direct translate the Chinese document. Aslo, if you found any wrongs at translation, please report it to me.
 
-学神录是一个成语匹配查询工具，成语接龙、热词搜索和智能问答等服务。。
+Word-match is a amazing dictionary miniprogram software looks like [成语大全](https://zz99999.com/cy).
 
-如果你也想弄个成语匹配，学神录或许是你的不二选择！
+If you also wanted to build a dictionary miniprogram, maybe Word-match is the best choice for you!
 
-## 特点欣赏 ##
+# Features #
 
-* 自动登陆。 *获取用户的微信授权信息，自动完成注册和登陆*
-* 可添加反馈。
-* 查询成语关联词。
-* 展示搜索热词 *展示搜索热度最高的，对每次搜索的词语热度+1*
-* 搜索某个词的反义词、近义词 *按照关联度从大到小展示某个词的所有反义词、近义词*
-* 对搜索结果点赞 *可以对搜索结果中的某个词点赞，其关联度+1*
-* 反馈成功可以给用户发送微信通知 *微信订阅消息（通知）*
-* 联系与反馈 *用户可以向系统提交反馈*
-* 反馈是可以上传图片 *Bug截图*
-* 支持成语接龙 *一个简(ruo)单(zhi)的成语接龙游戏。*
-* 管理员可以查看所有反馈
-* 可以将小程序分享给好友 *分享到微信群*
+*Automatic login* Obtain the user's wechat authorization information, and automatically complete the registration and login*
 
-##云函数安装依赖
-npm install -save wx-server-sdk@latest
+* Feedback can be added.
+
+* Query idiom Related words.
+
+* Show search hot words *show the words with the highest search heat, and the word heat for each search is + 1*
+
+* Search antonyms and synonyms of a word *display all antonyms and synonyms of a word according to the relevance degree*
+
+* Like the search results *you can like a word in the search results, and its correlation degree is + 1*
+
+* If the feedback is successful, wechat notification *wechat subscription message (notification) can be sent to the user*
+
+* Contact and feedback *users can submit feedback to the system*
+
+* Feedback is that you can upload pictures *bug screenshots*
+
+* Support idiom Solitaire *a simple (Ruo) single (Zhi) idiom solitaire game*
+
+* Administrators can view all feedback
+
+* You can share the app with your friends *to the wechat group*
+
+* Idiom like function *increases relevance*
+
+* Distribution, edit, delete your classmate alumni, display the contents of the alumni.*
+
+* < del > publish, edit and delete your classmate alumni, display the contents of the alumni < del >*
+
+* star game is a simple evaluation star game, users click on choose favorite star.…*
+
+* check list, according to the score display list for the actors. *
+
+*Sweep sweep * code to add books, book bar code, save the books in the backpack.*
+
+* AI card card recognition, code card, access to information on the card and stored in the card in the package.*
+
+
+#Cloud function installation dependency#
+
+> npm install -save wx-server-sdk@latest
 
 ## Python Scripts
-- [cyToCsv.py](./爬虫/cyToCsv.py):  爬取成语字典
+- [cyToCsv.py](./爬虫/cyToCsv.py):  A complete collection of Idioms
+- [wdToCsv. Py](./crawler/wdToCsv.Py) : Chinese characters of the dictionary
+...s
 
-## 更新日志 ##
+# Update Logs #
 
-*学神录目前不能使用，会在beta及以后版本允许正常使用。(alpha -> beta -> release)*
-*仅显示较大更新，并且会不定期省略，详细更新请查看[更新日志](logs.md)。*
+> GoddessRecord cannot use now, it can allow you to use in beta version and later. (alpha -> beta -> release)
+> Learn to add new features to shenlu, users can like their favorite idioms
+> Learn to realize multi thesaurus search, through pinyin to find idioms, single word to find idioms.Add more words.
+> star game, this is a simple game, choose your favorite actor, ordered by system according to the score. 
+> private bookcase, scan book bar code below to join the books, view the book information 
+> to repair a number of problems, solve the problem of failed to get information scanning 
+> new business card recognition, AI card identification, name card information stored in my card bag 
+> Only summary updates will be shown here, view [Update Logs](en.logs.md) to learn more.
 
-版本号 | 日期 | 内容
+Version | Date | Content
 :---: | :---: | :---:
-0.0.2 alpha | 2021年6月1日 | 学神录诞生了！
-0.3.0 alpha | 2021年6月2日 | 采集数据。
-0.4.2 alpha | 2021年6月3日 | 采集数据。
-0.5.3 alpha | 2021年6月4日 | 测试接口。
-0.7.3 alpha | 2021年6月5日 | 调试接口。
-0.8.3 alpha | 2021年6月6日 | 真机调试。
-1.0.0 beta | 2021年6月7日 | 体验版发布！
-1.0.1 release | 2021年6月7日 | 学神录发布了！
+0.0.2 alpha | June 1, 2021 | xueshenlu was born!
+0.3.0 alpha | June 2, 2021 | collected data.
+0.4.2 alpha | June 3, 2021 | collected data.
+0.5.3 alpha | June 4, 2021 | test interface.
+0.7.3 alpha | June 5, 2021 | debug interface.
+0.8.3 alpha | June 6, 2021 | real machine debugging.
+1.0.0 beta | June 7, 2021 | experience version released!
+1.0.1 release | June 7, 2021|Xueshenlu has been released!
+1.0.2 release | June 8, 2021 | new features!
+1.0.3 release | June 9, 2021 | optimize search!
+1.0.4 release | June 10, 2021 | collect the data of diet dictionary.
+1.0.5 alpha | June 11, 2021 | data of cleaning diet dictionary.
+1.0.6 alpha | June 14, 2021 | collect data of health, computer network, mathematical and chemical dictionary.
+1.0.7 Bata | June 15, 2021 | test double thesaurus search.
+1.0.8 alpha | June 18, 2021 | Join multi thesaurus search.
+1.1.0 Bata | June 19, 2021 | Launch new features.
+1.2.0 alpha | July 6, 2021 |alumni is coming!
+1.2.79 alpha | July 14, 2021| private bookcase test on 
+1.2.8 beta | on July 15, 2021 |on-line sweeping code book!
+1.3.0 alpha | 19 July 2021 |card package experience release!
 
-## 联系我 ##
 
-作者目前只是一个大学生，目前可能无法投入足够时间开发，爱好人士可协助本人开发！
+# Contact #
 
-由于某些原因，本人暂不接受捐助，但在第一可用版本发布后，会邀请人对小程序管理。
+> Because Word-match cannot be used for now, so I use Flarum for the cumminity. QQ and WeChat allowed donate. (I've just wanted to earn some money.)
 
-电邮地址: [dfzympj@qq.com](mailto:dfzympj@qq.com)
+Email Address: [dfzympj@qq.com](mailto:dfzympj@qq.com)
 
-QQ: 1821628025  微信号: DFZYMPJ
+QQ: 1821628025  WeChat ID: DFFZMXJ
 
-官方论坛:[Goddess Forum](http://thegoddessforum.com)
+Official Forum: [Goddess Forum](http://thegoddessforum.com)
